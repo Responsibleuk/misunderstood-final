@@ -153,3 +153,33 @@ p {
 		line-height: 1;
 	}
 }
+
+/* 
+==============
+Popular Posts
+==============
+*/
+
+.flex-container {
+	margin-left: 5rem;
+	margin-right: 5rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.flex-item {
+	padding: 1rem;
+	padding-bottom: 2rem;
+	margin: 1rem;
+	width: 20rem;
+	flex: 50%;
+	background-color: var(--clr-primary-10);
+	box-shadow: var(--light-shadow);
+}
+
+.flex-item p {
+	padding-top: 1rem;
+}
